@@ -13,8 +13,14 @@ npm install
 ## Running
 
 ### Rails
+
+```sh
 rake db:create db:migrate
 rails s
+```
 
 ### React
+
+```sh
 webpack -w -d
+```
