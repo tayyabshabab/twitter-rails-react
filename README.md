@@ -9,13 +9,13 @@ git clone git@github.com:tayyabshabab/twitter-rails-react.git
 cd twitter-rails-react
 bundle
 npm install
+rake db:create db:migrate
 ```
 ## Running
 
 ### Rails
 
 ```sh
-rake db:create db:migrate
 rails s
 ```
 
